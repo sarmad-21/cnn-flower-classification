@@ -3,8 +3,7 @@
 ## Overview 
 This project focuses on classifying flower images into two categories: "0" and "5". The model uses Convolutional Neural Networks (CNNs) to achieve high classification performance. The primary goal is to accurately categorize flower images, leveraging deep learning techniques.
 
-## Technologies Used
-- Python
+## Libraries 
 - TensorFlow
 - Keras
 - PIL (Python Imaging Library)
@@ -12,7 +11,7 @@ This project focuses on classifying flower images into two categories: "0" and "
 - Scikit-Learn
 - OS
 
-## Deep Learning Model 
+## Convolutional Neural Network 
 The model uses a Convolutional Neural Network (CNN) architecture to classify images. Key components include:
 - **Convolutional Layer**: Extracts features from the input images. In this model, the convolutional layer uses 16 filters to capture different features from the image.
 - **ReLU Activation Function**: Introduces non-linearity to the model.
@@ -22,7 +21,6 @@ The model uses a Convolutional Neural Network (CNN) architecture to classify ima
 - **Sigmoid Activation Function**: Produces a probability score for binary classification.
 
 ## Data 
-- Link to data: https://web.njit.edu/~usman/courses/cs677_spring21/flowers-recognition.zip
 - The dataset consists of images of flowers and their corresponding labels.
 - Labels are provided in the flower_labels.csv file.
 - Images are resized to 32x32 pixels for processing.
